@@ -119,3 +119,51 @@ a{
     font-family: MentiText, Arial, sans-serif;
     
 }
+#section{
+    padding: 64px 32px 0px 32px;
+    height: 277.59;
+    width: 796;
+    background-color: aqua;
+}
+#heading{
+    height: 213.59px;
+    display: flex;
+    background-color: #ff0000;
+    flex-direction: column;
+    align-items: center;
+
+}
+#heading1{
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Arial, sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    width: 650px;
+    height: 38px;
+    margin-top: -9px;
+    margin-bottom:16px;
+    
+}
+
+#heading2{
+    font-family: mentitext,Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 540px;
+    height: 56px;
+    margin-bottom: 16px;
+
+}
+#get{
+    height: 52px;
+    width: 202.71px;
+    background-color: black;
+    border-radius: 40px;
+}
+#getdiv{
+    display: flex;
+    height: 87.59px;
+    width: 202.71px;
+    flex-direction: column;
+}
+#button{
+    color: #ffffff;
+}
