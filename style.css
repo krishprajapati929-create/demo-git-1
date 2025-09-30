@@ -1,6 +1,6 @@
 *{
-    padding: 0%;
-    margin: 0%;
+    padding: 0px;
+    margin: 0px;
 }
 #i{
     width: 106.71px;
@@ -121,14 +121,13 @@ a{
 }
 #section{
     padding: 64px 32px 0px 32px;
-    height: 277.59;
-    width: 796;
-    background-color: aqua;
+    height: 350.385px;
+    background-color: white;
 }
 #heading{
-    height: 213.59px;
+    height: 350.385px;
     display: flex;
-    background-color: #ff0000;
+    background-color: white;
     flex-direction: column;
     align-items: center;
 
@@ -138,32 +137,46 @@ a{
     font-size: 38px;
     font-weight: 400;
     width: 650px;
-    height: 38px;
+    height: 140px;
     margin-top: -9px;
-    margin-bottom:16px;
-    
+    margin-bottom:20px;
+    text-align: center;
+    font-size: 70px;
+
 }
 
 #heading2{
     font-family: mentitext,Arial, Helvetica, sans-serif;
     font-size: 20px;
     width: 540px;
-    height: 56px;
+    height: 58.79px;
     margin-bottom: 16px;
-
+    margin-top: 27px;
+    text-align: center;
 }
 #get{
     height: 52px;
     width: 202.71px;
     background-color: black;
     border-radius: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #getdiv{
     display: flex;
     height: 87.59px;
     width: 202.71px;
     flex-direction: column;
+    text-align: center;
 }
 #button{
     color: #ffffff;
+    text-align: center;
+    margin: 0px;
+}
+#cradded{
+    margin-top: 10px;
+    color: #0000008C;
 }
