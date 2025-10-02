@@ -12,6 +12,7 @@
    width: 105px;
     margin-right: 5px;
     font-size: 15px;
+    color: white;
 }
 #k{
     height: 40px;
@@ -179,4 +180,23 @@ a{
 #cradded{
     margin-top: 10px;
     color: #0000008C;
+}
+#video{
+    text-align: center;
+    border-radius: 20px;
+    height: 530px;
+    border:5px solid #E1E2FA;
+    position: absolute;
+    margin-top: 28px;
+
+}
+#vid{
+   display: flex;
+   justify-content: center;
+}
+
+#di{
+    height:570px;
+    width: 1900px;
+
 }
