@@ -225,4 +225,49 @@ a{
     
     left: 40px;
     bottom: 136px;
+
 }
+#af{
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 500px;
+    position: absolute;
+    left: 460px;
+    margin-top: 380px;
+}
+#ag{
+    background-color: #ffffff;
+    height: 120px;
+    width: 210px;
+    display: flex;
+    position: relative;
+    right: 50px;
+    top: 185px;
+}
+#ah{
+    background-color: #f2f1f0;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    color: black;
+
+    
+}
+#ai{
+    background-color: #f2f1f0;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+        background-image: url("right_arrow-removebg-preview.png");
+    background-size: cover;
+}
+#aj{
+    background-color: #f2f1f0;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+}
+
+
