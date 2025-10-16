@@ -270,7 +270,7 @@ a{
     margin-left: 10px;
 }
 #ak{
-    background-color: #F3EDE7;;
+    background-color: #F3EDE7;
     height: 591.4px;
     width: 100vw;
     display: flex;
@@ -307,7 +307,7 @@ a{
 }
 
 #ao{
-    background-color: #d48a8a;
+    background-color: #b29c9c;
     height: 308.23px;
     width: 308.23px;
     position: relative;
@@ -318,7 +318,7 @@ a{
 }
 
 #ap{
-    background-color: #b07171;
+    background-color: #e2c5c5;
     height: 308.23px;
     width: 308.23px;
     position: relative;
@@ -337,7 +337,7 @@ a{
     top: 8px;
 }
 #ar{
-    background-color: #ff0000;
+    background-color: #b99c9c;
     height: 173.4px;
     width: 293.55px;
     display: flex;
@@ -347,7 +347,7 @@ a{
     top: 14px;
 }
 #as{
-    background-color: #ff0000;
+    background-color: #f4e5e5;
     height: 173.4px;
     width: 293.55px;
     display: flex;
@@ -357,7 +357,7 @@ a{
     top: 14px;
 }
 #at{
-    background-color: #ff0000;
+    background-color: #d7cece;
     height: 173.4px;
     width: 293.55px;
     display: flex;
@@ -366,3 +366,28 @@ a{
     left: 30px;
     top: 14px;
 }
+#au{
+    font-size: 30px;
+    font-family: "Gill Sans", sans-serif;
+}
+#av{
+    font-size: larger;
+    font-family: "Gill Sans", sans-serif;
+}
+#aw{
+    width: 188.65px;
+    height: 40px;
+    border-radius: 20px;
+    position: absolute;
+    background-color: #F3EDE7;
+    top: 130px;
+    display: flex;
+    
+}
+#ax{
+    position: relative;
+    margin-left: 13px;
+    margin-top: 8px;
+}
+
+
