@@ -287,6 +287,7 @@ a{
     display: flex;
     display: inline-block;
     flex-direction: column;
+    border-radius: 20px;
 }
 
 #am{
@@ -296,6 +297,7 @@ a{
     display: flex;
     display: inline-block;
     flex-direction: column;
+    border-radius: 20px;
 }
 
 #an{
@@ -304,6 +306,7 @@ a{
     width: 357.55px;
     display: inline-block;
     flex-direction: column;
+    border-radius: 20px;
 }
 
 #ao{
@@ -314,6 +317,9 @@ a{
     display: inline-block;
     left: 24px;
     top: 8px;
+    background-image: url(UTSImage.png);
+    background-size: cover;
+    
     
 }
 
@@ -325,6 +331,8 @@ a{
     display: inline-block;
     left: 24px;
     top: 8px;
+    background-image: url(image\(1\).webp);
+    background-size: cover;
 }
 
 #aq{
@@ -335,9 +343,11 @@ a{
     display: inline-block;
     left: 24px;
     top: 8px;
+    background-image: url(simens_featured.png);
+    background-size: cover;
 }
 #ar{
-    background-color: #b99c9c;
+    background-color: #ffffff;
     height: 173.4px;
     width: 293.55px;
     display: flex;
@@ -345,9 +355,10 @@ a{
     display: inline-block;
     left: 30px;
     top: 14px;
+
 }
 #as{
-    background-color: #f4e5e5;
+    background-color: #ffffff;
     height: 173.4px;
     width: 293.55px;
     display: flex;
@@ -357,7 +368,7 @@ a{
     top: 14px;
 }
 #at{
-    background-color: #d7cece;
+    background-color: #ffffff;
     height: 173.4px;
     width: 293.55px;
     display: flex;
@@ -367,11 +378,11 @@ a{
     top: 14px;
 }
 #au{
-    font-size: 30px;
+    font-size: 28px;
     font-family: "Gill Sans", sans-serif;
 }
 #av{
-    font-size: larger;
+    font-size: 18px;
     font-family: "Gill Sans", sans-serif;
 }
 #aw{
@@ -384,10 +395,46 @@ a{
     display: flex;
     
 }
+
+
 #ax{
-    position: relative;
-    margin-left: 13px;
-    margin-top: 8px;
+    font-size: 28px;
+    font-family: "Gill Sans", sans-serif;
 }
+#ay{
+    font-size: 18px;
+    font-family: "Gill Sans", sans-serif;
+}
+#az{
+    width: 219.1px;
+    height: 40px;
+    border-radius: 20px;
+    position: absolute;
+    background-color: #F3EDE7;
+    top: 130px;
+    display: flex;
+    
+}
+#aaa{
+    font-size: 28px;
+    font-family: "Gill Sans", sans-serif;
+}
+#aab{
+    font-size: 18px;
+    font-family: "Gill Sans", sans-serif;
+}
+#aac{
+    width: 167.41px;
+    height: 40px;
+    border-radius: 20px;
+    position: absolute;
+    background-color: #F3EDE7;
+    top: 130px;
+    display: flex;
 
-
+}
+#ax{
+    font-size: 15px;
+    margin-top: 13px;
+    margin-left: 14px;
+}
