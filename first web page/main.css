@@ -391,15 +391,16 @@ a{
     border-radius: 20px;
     position: absolute;
     background-color: #F3EDE7;
-    top: 130px;
+    top: 120px;
     display: flex;
     
 }
 
 
-#ax{
+#za{
     font-size: 28px;
     font-family: "Gill Sans", sans-serif;
+
 }
 #ay{
     font-size: 18px;
@@ -411,7 +412,7 @@ a{
     border-radius: 20px;
     position: absolute;
     background-color: #F3EDE7;
-    top: 130px;
+    top: 120px;
     display: flex;
     
 }
@@ -429,12 +430,12 @@ a{
     border-radius: 20px;
     position: absolute;
     background-color: #F3EDE7;
-    top: 130px;
+    top: 120px;
     display: flex;
 
 }
 #ax{
     font-size: 15px;
-    margin-top: 13px;
+    margin-top: 10px;
     margin-left: 14px;
 }
