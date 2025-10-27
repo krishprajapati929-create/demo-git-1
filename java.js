@@ -112,20 +112,20 @@ for (let box of boxes){
 };
 let changeclass = document.querySelector(".image")
         //  only one time write event
-createbutton.onclick = () => {
-  createpara1.innerText = "completed goal"
-  createpara2.innerText = "completed task"
-  createbutton.innerText = "accepted"
-  createbutton.style.color = "black"
-  createpara1.style.color = "white"
-    createpara2.style.color = "white"
-  newdiv.style.backgroundColor = "black"
-  createbutton.style.backgroundColor = "blue"
-   heading1.style.color = "white"
-  body.style.backgroundColor = "pink"
-  changeclass.setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOYHdRyAfOynIHW9tfd1rsTyhqaYANJXbkeg&s")
+// createbutton.onclick = () => {
+//   createpara1.innerText = "completed goal"
+//   createpara2.innerText = "completed task"
+//   createbutton.innerText = "accepted"
+//   createbutton.style.color = "black"
+//   createpara1.style.color = "white"
+//     createpara2.style.color = "white"
+//   newdiv.style.backgroundColor = "black"
+//   createbutton.style.backgroundColor = "blue"
+//    heading1.style.color = "white"
+//   body.style.backgroundColor = "pink"
+//   changeclass.setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOYHdRyAfOynIHW9tfd1rsTyhqaYANJXbkeg&s")
 
-};
+// };
 
 //                    multiple time and in js handling event
 createbutton.addEventListener("click",function(){
@@ -142,20 +142,31 @@ createbutton.addEventListener("click",function(){
   changeclass.setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOYHdRyAfOynIHW9tfd1rsTyhqaYANJXbkeg&s")
 });
 
-
-createbutton.onclick = (evt) => {
-  console.log(evt);
-  console.log(evt.type);
-  console.log(evt.target);
-  console.log(evt.clientX,evt.clientY);
-};
-
-// createbutton.addEventListener("click",function(){
-//   createpara1.innerText = "completed goal"
-// })
+//                 how can access Event objects
+// createbutton.onclick = (evt) => {
+//   console.log(evt);
+//   console.log(evt.type);
+//   console.log(evt.target);
+//   console.log(evt.clientX,evt.clientY);
+// };
 
 
+createbutton.addEventListener("click",()=>{
 
+  console.log("first my name is krish")
+})
+let handler2 = ()=>{
+  console.log("second my name is krish")
+}
+createbutton.addEventListener("click",handler2)
+
+createbutton.addEventListener("click",(evt)=>{
+  console.log("third my name is krish")
+})
+createbutton.addEventListener("click",(evt)=>{
+  console.log("fourth my name is krish")
+})
+createbutton.removeEventListener("click",handler2)
 
 
 
