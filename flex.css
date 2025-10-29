@@ -89,11 +89,11 @@
 }
 #b0{
     width: 35%;
-    background-color: blueviolet;
+    background-color: rgb(255, 255, 255);
     display: inline-block;
 }
 #b1{
     width: 65%;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
         display: inline-block;
 }
