@@ -33,7 +33,9 @@
     width: 100%;
     margin-top: 2%;
     display: inline-block;
+   
     position: relative;
+
      display: flex;
     background-color: rgb(255, 255, 255);
     font-size: xx-large;
@@ -43,22 +45,26 @@
 .a02{
     height: 26%;
     width: 100%;
-    border-radius: 15px;
+    border-radius: 12px;
     margin-top: 2%;
+    text-align: center;
     position: relative;
     background-color: rgb(62, 55, 60);
     display: inline-block;
+    line-height: 29px;
     font-size: 160%;
     font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 3px green double;
     color: rgb(225, 216, 216);
     
 }
 #a100{
-    background-image: url(2023-range-rover-velar.webp);
+    background-image: url(range_rover-removebg-preview.png);
     background-size: cover;
 }
 #a200{
-    background-image: url(defender.webp);
+    background-image: url(htaemfb_1823551.webp);
     background-size: cover;
 }
 #a300{
@@ -84,7 +90,7 @@
     height: 300%vh;
     background-color: aqua;
     display: flex;
-    border: 5px black solid;
+    border: 5px rgb(255, 255, 255) solid;
     border-radius: 5px;
 }
 #b0{
