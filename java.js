@@ -211,5 +211,22 @@
 
           // revision all event start
  
+// console.log("you enter in js world")
+// handlechange = ()=>{
+//         console.log("hi i am krish")
+// }
+// const handlechange=()=>{
+//         let firstname = document.getElementById("firstname").value;
+//         // console.log(firstname);
+// }
+// const handlesubmit=()=>{
+//         let firstname = document.getElementById("firstname").value;
+//         console.log(firstname);
+// }
 
-               
+const addbtn = document.querySelector("#addbtn")
+addbtn.addEventListener("click",()=>{
+        consolelog.com("Hi krish")
+})
+
+
