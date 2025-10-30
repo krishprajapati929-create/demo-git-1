@@ -23,23 +23,23 @@ addbtn.addEventListener("click",()=>{
     
 
 });
-localStorage.setItem("firstname", JSON.stringify({name:"krish",age:22,gender:"male"}));
-let value = localStorage.getItem('firstname') 
-console.log(value)
-localStorage.setItem("firstname","krish",)
-localStorage.setItem("secondname","krish",)
+// localStorage.setItem("firstname", JSON.stringify({name:"krish",age:22,gender:"male"}));
+// let value = localStorage.getItem('firstname') 
+// console.log(value)
+// localStorage.setItem("firstname","krish",)
+// localStorage.setItem("secondname","krish",)
 
-sessionStorage.setItem("lastname","smith");
+// sessionStorage.setItem("lastname","smith");
 
 
-// document.querySelector("#grandparent").addEventListener("click",()=>{
-//     console.log("grandparent")
-// })
-// document.querySelector("#parent").addEventListener("click",(event)=>{
-//     console.log("parent")
-//     event.stopImmediatePropagation()  
-//     // \^<== this is stopping propegation
-// })
-// document.querySelector("#btn").addEventListener("click",()=>{
-//     console.log("button")
-// })
+document.querySelector("#grandparent").addEventListener("click",()=>{
+    console.log("grandparent")
+})
+document.querySelector("#parent").addEventListener("click",(event)=>{
+    console.log("parent")
+    event.stopImmediatePropagation()  
+    // \^<== this is stopping propegation
+})
+document.querySelector("#btn").addEventListener("click",()=>{
+    console.log("button")
+})
