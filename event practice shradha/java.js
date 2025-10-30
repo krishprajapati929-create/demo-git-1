@@ -85,7 +85,7 @@
 //   nhead.innerText = "hello skilliance devoplepor"
 // })
 
-        //  only one time write event
+//         //  only one time write event
 // createbutton.onclick = () => {
 //   createpara1.innerText = "completed goal"
 //   createpara2.innerText = "completed task"
@@ -103,7 +103,7 @@
 
 
 
-//                 how can access Event objects
+//                 // how can access Event objects
 // createbutton.onclick = (evt) => {
 //   console.log(evt);
 //   console.log(evt.type);
@@ -146,87 +146,83 @@
 
 
 
-              // event all practice  in js 
+        //       event all practice  in js 
 
-// let newdiv = document.querySelector(".divs");
-// newdiv.innerText = "i am parent for all";
+let newdiv = document.querySelector(".divs");
+newdiv.innerText = "i am parent for all";
 
-// let createpara1 = document.createElement("h1");
-// createpara1.innerText = "i am go to complete my goal";
+let createpara1 = document.createElement("h1");
+createpara1.innerText = "i am go to complete my goal";
 
-// let createpara2 = document.createElement("h2");
-// createpara2.innerText = "i go to complete today task";
+let createpara2 = document.createElement("h2");
+createpara2.innerText = "i go to complete today task";
 
-// let createbutton = document.createElement("button");
-// createbutton.innerText = "click me";
+let createbutton = document.createElement("button");
+createbutton.innerText = "click me";
 
-// newdiv.appendChild(createpara1);
-// newdiv.appendChild(createpara2)
-// newdiv.appendChild(createbutton);
+newdiv.appendChild(createpara1);
+newdiv.appendChild(createpara2)
+newdiv.appendChild(createbutton);
 
-// let body = document.querySelector("body");
-// let heading1 = document.querySelector(".heading");
+let body = document.querySelector("body");
+let heading1 = document.querySelector(".heading");
 
-// let boxes = document.querySelectorAll(".box")
-// let i = 1
-// for (let box of boxes){
-//   box.innerText = `this is my ${i} box`
-//     i++
-// };
-// let changeclass = document.querySelector(".image")
+let boxes = document.querySelectorAll(".box")
+let i = 1
+for (let box of boxes){
+  box.innerText = `this is my ${i} box`
+    i++
+};
+let changeclass = document.querySelector(".image")
 
-// //                    multiple time and in js handling event
-// createbutton.addEventListener("click",function(){
-//   createpara1.innerText = "completed goal"
-//   createpara2.innerText = "completed task"
-//   createbutton.innerText = "accepted"
-//   createbutton.style.color = "black"
-//   createpara1.style.color = "white"
-//     createpara2.style.color = "white"
-//   newdiv.style.backgroundColor = "black"
-//   createbutton.style.backgroundColor = "blue"
-//    heading1.style.color = "white"
-//   body.style.backgroundColor = "pink"
-//   changeclass.setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOYHdRyAfOynIHW9tfd1rsTyhqaYANJXbkeg&s")
-// });
-
-
-// createbutton.addEventListener("click",()=>{
-
-//   console.log("first my name is krish")
-// })
-// let handler2 = ()=>{
-//   console.log("second my name is krish")
-// }
-// createbutton.addEventListener("click",handler2)
-
-// createbutton.addEventListener("click",(evt)=>{
-//   console.log("third my name is krish")
-// })
-// createbutton.addEventListener("click",(evt)=>{
-//   console.log("fourth my name is krish")
-// })
-// createbutton.removeEventListener("click",handler2)
+//                    multiple time and in js handling event
+createbutton.addEventListener("click",function(){
+  createpara1.innerText = "completed goal"
+  createpara2.innerText = "completed task"
+  createbutton.innerText = "accepted"
+  createbutton.style.color = "black"
+  createpara1.style.color = "white"
+    createpara2.style.color = "white"
+  newdiv.style.backgroundColor = "black"
+  createbutton.style.backgroundColor = "blue"
+   heading1.style.color = "white"
+  body.style.backgroundColor = "pink"
+  changeclass.setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOYHdRyAfOynIHW9tfd1rsTyhqaYANJXbkeg&s")
+});
 
 
-          // revision all event start
- 
-// console.log("you enter in js world")
-// handlechange = ()=>{
-//         console.log("hi i am krish")
-// }
-// const handlechange=()=>{
-//         let firstname = document.getElementById("firstname").value;
-//         // console.log(firstname);
-// }
-// const handlesubmit=()=>{
-//         let firstname = document.getElementById("firstname").value;
-//         console.log(firstname);
-// }
+createbutton.addEventListener("click",()=>{
 
-const addbtn = document.querySelector("#addbtn")
-addbtn.addEventListener("click",()=>{
-        consolelog.com("Hi krish")
+  console.log("first my name is krish")
 })
+let handler2 = ()=>{
+  console.log("second my name is krish")
+}
+createbutton.addEventListener("click",handler2)
+
+createbutton.addEventListener("click",(evt)=>{
+  console.log("third my name is krish")
+})
+createbutton.addEventListener("click",(evt)=>{
+  console.log("fourth my name is krish")
+})
+createbutton.removeEventListener("click",handler2)
+
+
+        //   revision all event start
+ 
+console.log("you enter in js world")
+handlechange = ()=>{
+        console.log("hi i am krish")
+}
+const handlechange=()=>{
+        let firstname = document.getElementById("firstname").value;
+        // console.log(firstname);
+}
+const handlesubmit=()=>{
+        let firstname = document.getElementById("firstname").value;
+        console.log(firstname);
+}
+
 
 
