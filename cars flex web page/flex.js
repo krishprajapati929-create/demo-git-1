@@ -1,11 +1,11 @@
-
-let range = document.querySelectorAll(".a02")
-console.log(range)
-
+let btn1 = document.querySelector("#btn1")
+ let range = document.querySelectorAll(".a02")
+btn1.addEventListener("click",()=>{
+    
+range[0].addEventListener("click",function(){
 let simimage = document.querySelectorAll(".simimage")
 let imagearea = document.querySelector("#b0")
 let textarea = document.querySelector("#b1")
-range[0].addEventListener("click",function(){
     textarea.innerText = `Range Rover is a luxury SUV brand known for its combination of off-road capability and opulent comfort. The brand is owned by Tata Motors through Land Rover and offers models like the larger Range Rover and the sportier Range Rover Sport. Features include powerful engine options (including mild hybrid, petrol, and diesel), advanced all-wheel steering, advanced infotainment systems like Pivi Pro, and air suspension for a smooth ride. Brand and ownership  The Range Rover brand is part of Land Rover, which is owned by the Indian auto manufacturer Tata Motors.The brand has a long history, with the first model being launched in 1970. Key models and features
 Range Rover: The flagship model is a large, luxurious SUV with seating for up to seven people. It is known for its comfortable ride and off-road capability, offering a choice of engines, including mild-hybrid options and a powerful V8.
 Range Rover Sport: This model is a sportier, more performance-oriented SUV. It is available in various engine configurations, including a high-performance Supercharged V8 in the SVR variant. Performance and technology
@@ -80,4 +80,5 @@ textarea.style.fontSize = "25px";
 textarea.style.backgroundColor = "#c8d4d0ff";
 simimage[0].style.height = "250px"
 simimage[1].style.height = "210px"
+})
 })
