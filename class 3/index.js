@@ -10,7 +10,7 @@
 //     }else{
 //         const li = document.createElement("li")
 //         li.textContent=tasktext;
-//         localStorage.setItem("firstname",tasktext)
+        // //localStorage.setItem("firstname",tasktext)
 //         let newbtn = document.createElement("button")
 //         newbtn.textContent = "delete"
 //         newbtn.addEventListener("click",()=>{
