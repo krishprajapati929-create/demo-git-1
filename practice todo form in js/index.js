@@ -23,6 +23,7 @@ button.addEventListener("click",()=>{
   email: newemail,
   password: newnum
 }));
+    
     newbtn.innerText = "delete"
     newbtn.addEventListener("click",()=>{
         name1.remove()
@@ -36,5 +37,7 @@ button.addEventListener("click",()=>{
     task.value = ""
     email.value = ""
     password.value = ""
+            
     }
+    
 })
