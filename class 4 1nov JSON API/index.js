@@ -27,7 +27,7 @@
 
 async function getdata(){
     try{
-    let response = await fetch("https://jsonplaceholder.typicode.com/photos");
+    let response = await fetch("http://localhost:3000/posts");
     let data = await response.json();
     console.log(data);
     }catch(error){
