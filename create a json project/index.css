@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #7a7ad4;
+    color: #333;
+    min-height: 100vh;
+}
+.navbar{
+    background-color: black;
+    padding: 16px 5px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+.nav-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+}
+.nav-logo h1{
+    color: #fff;
+    font-size: 24px;
+}.nav-button{
+    display: flex;
+    gap:10px;
+}
+.nav-btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+.button-favourite{
+    background-color:tomato;
+    color: rgb(255, 255, 255);
+}
+.button-cart{
+    color: #fff;
+    background-color: #3ad1ff;
+}
+.carousal-section{
+    margin: 32px 0;
+}
+.carousal-container{
+    max-width: 1000px;
+    height: 350px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    /* padding: 40px 60px; */
+}
+.carousal-slide{
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.carousal-slide.active {
+  display: block; 
+} 
+.carousal-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.carousal-btn{
+    position: absolute;
+    height: 30px;
+    width: 40px;
+    top: 50%;
+    color: rgb(255, 58, 58);
+}
+.next{
+    right: 0%;
+}
+
+/* css for movies */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px;
+
+}
+.movie-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+
+}
+
+.movie-card{
+
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+     cursor: pointer;
+}
+.movie-poster{
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    background-color: #667eea;
+} 
+.movie-poster-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.movie-info{
+    padding: 16px;
+}
+.movie-title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+.movie-year{
+    color: #666;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+.movie-genre{
+    display: inline-block;
+    background-color: #667eea;
+    color: white;
+    padding: 4px 12px;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.movie-rating{
+     color: goldenrod;
+}
+.movie-buttons{
+    display: flex;
+    gap: 8px;
+}
+.btn{
+    flex: 1;
+    padding: 12px;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight:bold ;
+}

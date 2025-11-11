@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie App</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <!-- navbar section -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <h1>🎥 Movie Hub</h1>
+      </div>
+      <div class="nav-button">
+        <button class="nav-btn button-favourite">Favourite</button>
+        <button class="nav-btn button-cart">Cart</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- carousel section -->
+  <section class="carousal-section" id="home">
+    <button onclick="changeSlide(-1)" class="carousal-btn prev">Prev</button>
+    <button onclick="changeSlide(1)" class="carousal-btn next">Next</button>
+
+    <div class="carousal-container" id="carousal-container"></div>
+  </section>
+   <!-- movie section -->
+    <section class="movie-section" id="movies">
+        <div class="container">
+            <h2>Popular Movies</h2>
+            <div id="movies-container" class="movie-grid">
+                <!-- movies will we loaded -->
+            </div>
+        </div>
+    </section>
+
+  <script src="index.js"></script>
+</body>
+</html>
