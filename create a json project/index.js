@@ -39,7 +39,10 @@ function updateCarousal(){
         }
     })
 }
-
+function autoNext(){
+    currentslide=(currentslide+1)%carousalImages.length
+    updateCarousal()
+}
 function changeSlide(direction){
 currentslide = (currentslide+ direction+carousalImages.length)%carousalImages.length
     updateCarousal()
@@ -60,6 +63,7 @@ async function loadMovies(){
 function displayMovies(){
     if(!moviescontainer){
         console.log("movies container is not found")
+        return
     }
     if(!allMovies||allMovies.length===0){
         moviescontainer.innerHTML=`<p style='color:white;text-align:center'>NO movies available</p>`
@@ -84,8 +88,37 @@ function displayMovies(){
         </div>
         </div> 
         ` 
+        card.addEventListener("click",()=>{
+            window.location.href="single.html"
+        })
+        const cartbtn = card.querySelector(".button-cart")
+        cartbtn.addEventListener("click",()=>hendlecart(movi))
         moviescontainer.appendChild(card)
     })
 }
+async function hendlecart(movi){
+    try{
+        const res = await fetch(`http://localhost:3000/cart?id=${movi.id}`)
+        const existing = await res.json()
+        console.log(movi)
+        if(existing.length>0){
+            alert(`${movi.title} is already in your cart`)
+        }
+        await fetch("http://localhost:3000/cart",{
+            method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(movi)
+        })
+        alert(`${movi.title} add to cart`)
+
+    }catch(err){
+        console.log(err)
+    }
+}
+
+setInterval(autoNext,2000);
+
 loadMovies()
 initcarousal()
