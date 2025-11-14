@@ -8,7 +8,7 @@
 </head>
 <body>
     <nav class="nav-bar">
-        <div class="inner-nav">
+        <section class="inner-nav">
             <div class="nav-logo">
                 <h1 class="movie-hub">🎥Movie Hub</h1>
             </div>
@@ -16,11 +16,12 @@
             <div class="favourite">Favourite</div>
             <div class="cart">Cart</div>
             </div>
-        </div>
+        </section>
     </nav>
-    <section class="display-movie">Movies
+    <section class="display-movie">
+        <button onclick="changeSlide(-1)" class="btn prev">prev</button>
+        <button onclick="changeSlide(+1)" class="btn next">next</button>
         <div class="display-container">
-            <div class="display-images"></div>
         </div>
     </section>
 </body>
