@@ -73,9 +73,9 @@ function displaymovies(){
     carddiv.innerHTML=`
         <div class="movieposter">
 
-            <img class="img"src=${movie.poster} alt=${movie.title}>
+            <img class="img" src=${movie.poster} alt=${movie.title}>
         </div>
-        <div class="imfo">
+        <div class="info">
             <div class="movietitle">${movie.title}</div>
             <div class="movieid"></div>
             <div class="moviecetegory">${movie.category}</div>
