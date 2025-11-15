@@ -1,178 +1,217 @@
 {
   "Movies": [
-    
-  {
-    "id": 1,
-    "title": "The Lost Kingdom",
-    "category": "action",
-    "rank": 4.5,
-    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
-    "year": 2019
-  },
-  {
-    "id": 2,
-    "title": "Rise of Legends",
-    "category": "adventure",
-    "rank": 4.1,
-    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
-    "year": 2021
-  },
-  {
-    "id": 3,
-    "title": "Future War",
-    "category": "sci-fi",
-    "rank": 4.6,
-    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
-    "year": 2020
-  },
-  {
-    "id": 4,
-    "title": "Shadow Hunter",
-    "category": "thriller",
-    "rank": 4.0,
-    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
-    "year": 2018
-  },
-  {
-    "id": 5,
-    "title": "Ocean Secrets",
-    "category": "mystery",
-    "rank": 4.3,
-    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
-    "year": 2017
-  },
-  {
-    "id": 6,
-    "title": "Dream World",
-    "category": "animated",
-    "rank": 4.7,
-    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
-    "year": 2015
-  },
-  {
-    "id": 7,
-    "title": "Jungle Spirit",
-    "category": "adventure",
-    "rank": 4.4,
-    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
-    "year": 2016
-  },
-  {
-    "id": 8,
-    "title": "Galaxy Storm",
-    "category": "sci-fi",
-    "rank": 4.8,
-    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
-    "year": 2022
-  },
-  {
-    "id": 9,
-    "title": "Final Escape",
-    "category": "action",
-    "rank": 4.2,
-    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
-    "year": 2014
-  },
-  {
-    "id": 10,
-    "title": "Robot Age",
-    "category": "sci-fi",
-    "rank": 4.5,
-    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
-    "year": 2019
-  },
-  {
-    "id": 11,
-    "title": "Spirit of Fire",
-    "category": "fantasy",
-    "rank": 4.4,
-    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
-    "year": 2013
-  },
-  {
-    "id": 12,
-    "title": "Blue Planet",
-    "category": "documentary",
-    "rank": 4.9,
-    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
-    "year": 2011
-  },
-  {
-    "id": 13,
-    "title": "Sky Warriors",
-    "category": "action",
-    "rank": 4.3,
-    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
-    "year": 2020
-  },
-  {
-    "id": 14,
-    "title": "Secret Agent X",
-    "category": "thriller",
-    "rank": 4.1,
-    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
-    "year": 2016
-  },
-  {
-    "id": 15,
-    "title": "Magic Forest",
-    "category": "fantasy",
-    "rank": 4.6,
-    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
-    "year": 2012
-  },
-  {
-    "id": 16,
-    "title": "Future Race",
-    "category": "sci-fi",
-    "rank": 4.4,
-    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
-    "year": 2017
-  },
-  {
-    "id": 17,
-    "title": "Danger Road",
-    "category": "action",
-    "rank": 4.0,
-    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
-    "year": 2013
-  },
-  {
-    "id": 18,
-    "title": "Golden Kingdom",
-    "category": "adventure",
-    "rank": 4.5,
-    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
-    "year": 2018
-  },
-  {
-    "id": 19,
-    "title": "Haunted Night",
-    "category": "horror",
-    "rank": 4.1,
-    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
-    "year": 2021
-  },
-  {
-    "id": 20,
-    "title": "Crazy Toons",
-    "category": "animated",
-    "rank": 4.7,
-    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
-    "year": 2010
-  }
-],
-  "comments": [
-     {
-    "id": 19,
-    "title": "Haunted Night",
-    "category": "horror",
-    "rank": 4.1,
-    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
-    "year": 2021
-  }
-    ],
-  "profile": {
+    {
+      "id": 1,
+      "title": "The Lost Kingdom",
+      "category": "action",
+      "rank": 4.5,
+      "poster": "https://www.kalyanjewellers.net/images/Jewellery/Necklace/images/charunaya-sankalp-gold-necklace.jpg",
+      "year": 2019
+    },
+    {
+      "id": 2,
+      "title": "Rise of Legends",
+      "category": "adventure",
+      "poster": "https://www.kalyanjewellers.net/images/Jewellery/Necklace/images/abdhija-nimah-gold-necklace.jpg",
+      "rank": 4.1,
+      "year": 2021
+    },
+    {
+      "id": 3,
+      "title": "Future War",
+      "category": "sci-fi",
+      "rank": 4.6,
+      "poster": "https://www.kalyanjewellers.net/images/Jewellery/Necklace/images/kamakshi-mudhra-gold-choker-necklace.jpg",
+      "year": 2020
+    },
+    {
+      "id": 4,
+      "title": "Shadow Hunter",
+      "category": "thriller",
+      "rank": 4,
+      "poster": "https://www.kalyanjewellers.net/images/Jewellery/Necklace/images/Samaja-Mudhra-Gold-Choker-Necklace.jpg",
+      "year": 2018
+    },
+    {
+      "id": 5,
+      "title": "Ocean Secrets",
+      "category": "mystery",
+      "rank": 4.3,
+      "poster": "https://www.kalyanjewellers.net/images/Jewellery/Necklace/images/Lashita-Mudhra-Gold-Necklace.jpg",
+      "year": 2017
+    },
+    {
+      "id": 6,
+      "title": "Dream World",
+      "category": "animated",
+      "rank": 4.7,
+      "poster": "https://www.kalyanjewellers.net/images/Jewellery/Necklace/images/Lashita-Mudhra-Gold-Necklace.jpg",
+      "year": 2015
+    },
+    {
+      "id": 7,
+      "title": "Jungle Spirit",
+      "category": "adventure",
+      "rank": 4.4,
+      "poster": "https://www.kalyanjewellers.net/images/Jewellery/Necklace/images/Lashita-Mudhra-Gold-Necklace.jpg",
+      "year": 2016
+    },
+    {
+      "id": 8,
+      "title": "Galaxy Storm",
+      "category": "sci-fi",
+      "rank": 4.8,
+      "poster": "https://www.kalyanjewellers.net/images/Jewellery/Necklace/images/Lashita-Mudhra-Gold-Necklace.jpg",
+      "year": 2022
+    },
+    {
+      "id": 9,
+      "title": "Final Escape",
+      "category": "action",
+      "rank": 4.2,
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
+      "year": 2014
+    },
+    {
+      "id": 10,
+      "title": "Robot Age",
+      "category": "sci-fi",
+      "rank": 4.5,
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
+      "year": 2019
+    },
+    {
+      "id": 11,
+      "title": "Spirit of Fire",
+      "category": "fantasy",
+      "rank": 4.4,
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
+      "year": 2013
+    },
+    {
+      "id": 12,
+      "title": "Blue Planet",
+      "category": "documentary",
+      "rank": 4.9,
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
+      "year": 2011
+    },
+    {
+      "id": 13,
+      "title": "Sky Warriors",
+      "category": "action",
+      "rank": 4.3,
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
+      "year": 2020
+    },
+    {
+      "id": 14,
+      "title": "Secret Agent X",
+      "category": "thriller",
+      "rank": 4.1,
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
+      "year": 2016
+    },
+    {
+      "id": 15,
+      "title": "Magic Forest",
+      "category": "fantasy",
+      "rank": 4.6,
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
+      "year": 2012
+    },
+    {
+      "id": 16,
+      "title": "Future Race",
+      "category": "sci-fi",
+      "rank": 4.4,
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
+      "year": 2017
+    },
+    {
+      "id": 17,
+      "title": "Danger Road",
+      "category": "action",
+      "rank": 4,
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
+      "year": 2013
+    },
+    {
+      "id": 18,
+      "title": "Golden Kingdom",
+      "category": "adventure",
+      "rank": 4.5,
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
+      "year": 2018
+    },
+    {
+      "id": 19,
+      "title": "Haunted Night",
+      "category": "horror",
+      "rank": 4.1,
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
+      "year": 2021
+    },
+    {
+      "id": 20,
+      "title": "Crazy Toons",
+      "category": "animated",
+      "rank": 4.7,
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0i-2M4z16fIAi63rtoxA1c5oyvsV9Ou7kw&s",
+      "year": 2010
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "title": "The Lost Kingdom",
+      "category": "action",
+      "rank": 4.5,
+      "poster": "https://www.kalyanjewellers.net/images/Jewellery/Necklace/images/charunaya-sankalp-gold-necklace.jpg",
+      "year": 2019
+    },
+    {
+      "id": 2,
+      "title": "Rise of Legends",
+      "category": "adventure",
+      "poster": "https://www.kalyanjewellers.net/images/Jewellery/Necklace/images/abdhija-nimah-gold-necklace.jpg",
+      "rank": 4.1,
+      "year": 2021
+    },
+    {
+      "id": 2,
+      "title": "Rise of Legends",
+      "category": "adventure",
+      "poster": "https://www.kalyanjewellers.net/images/Jewellery/Necklace/images/abdhija-nimah-gold-necklace.jpg",
+      "rank": 4.1,
+      "year": 2021
+    },
+    {
+      "id": 2,
+      "title": "Rise of Legends",
+      "category": "adventure",
+      "poster": "https://www.kalyanjewellers.net/images/Jewellery/Necklace/images/abdhija-nimah-gold-necklace.jpg",
+      "rank": 4.1,
+      "year": 2021
+    },
+    {
+      "id": 3,
+      "title": "Future War",
+      "category": "sci-fi",
+      "rank": 4.6,
+      "poster": "https://www.kalyanjewellers.net/images/Jewellery/Necklace/images/kamakshi-mudhra-gold-choker-necklace.jpg",
+      "year": 2020
+    },
+    {
+      "id": 3,
+      "title": "Future War",
+      "category": "sci-fi",
+      "rank": 4.6,
+      "poster": "https://www.kalyanjewellers.net/images/Jewellery/Necklace/images/kamakshi-mudhra-gold-choker-necklace.jpg",
+      "year": 2020
+    }
+  ],
+  "favourite": {
     "id": 20,
     "title": "Crazy Toons",
     "category": "animated",

@@ -1,11 +1,7 @@
 const carousalImages = [
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7zODw5Ey6jBd_7mpiPcVwHpq7VG-pZ0Nw9g&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7oq4nLllaNTJWNbEHg3icx129yGwfR1Ar3w&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ889_SlnIzvZQrnLzKF467gy5JsfMy3bY3HA&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuLf1NM3PcR6ZXNcAooYjw_ylzg2H2adWRVg&s",
-    "https://i.ytimg.com/vi/5hWgFj-3J-k/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDXURggicCLNLIo-PA_1-Iu68AUeg",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaVSWCaGAWiUF0P3OPwKFomwBtcc77AGc35w&s"
-   , "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO9Q4RgS84bHZXfKHgYngwhUuKWafoXm4kqQ&s"
+    "https://www.kalyanjewellers.net/images/banners/gold_banner.jpg",
+    "https://www.kalyanjewellers.net/images/banners/gift.webp",
+    "https://www.kalyanjewellers.net/images/chairman-wide.jpg"
 ]
 currentslide = 0
 let allmovies = []
@@ -81,15 +77,37 @@ function displaymovies(){
             <div class="moviecetegory">${movie.category}</div>
             <div class="movierank">${movie.rank}</div>
             <div class="movieyear">${movie.year}</div>
-            <button class="card-cart">cart</button>
-            <button class="card-favourite">favourite</button>
+            <button class="card-favourite cardbtn">favourite</button>
+            <button class="card-cart cardbtn">cart</button>
         </div>
         
     `
+    const cartbtn = carddiv.querySelector(".card-cart")
+    cartbtn.addEventListener("click",()=>(handlecart(movie)))
     cardContainer.appendChild(carddiv)
     })
 }
+async function handlecart(movie){
+    try{
+        const res = await fetch(`http://localhost:3001/cart?id=${movie.id}`)
+        const exixting = await res.json()
+        console.log(movie)
+        if(exixting.length>0){
+            alert(`${movie.title} is already in cart`)
+        }
+        await fetch("http://localhost:3001/cart",{
+            method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(movie)
+        })
+        alert(`${movie.title} add to cart`)
 
+    }catch(err){
+        console.log(err)
+    }
+}
 loadmovies()
 setInterval(autoNext,2000)
 initcrousal()
