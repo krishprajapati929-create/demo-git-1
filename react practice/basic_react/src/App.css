@@ -1,0 +1,120 @@
+body{color: rgb(14, 1, 54);
+background-color: rgb(159, 211, 211);}
+.editclass{
+  display: flex;
+  padding: 10px;
+  border: 4px solid black;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+.addimg{
+  width: 15%;
+  height: 240px;
+  border: 2px solid black;
+  margin-top: 7px;
+  overflow: hidden;
+}
+img{
+object-fit: cover;
+ width: 100%;
+ height: 100%;
+}
+.about-me{
+
+}
+.college-me{
+
+}
+.abot{
+  height: 220px;
+  width: 480px;
+  border: 2px solid black;
+  margin-top: 7px;
+  padding: 10px;
+}
+.head{
+  align-self: self-start;
+  top: 15.5%;
+  left: 55%;
+  position:absolute;
+  margin: auto;
+}
+.inputa{
+  height: 149px;
+  width: 471px;
+  border: 2px solid black;
+  font-size: 20px;
+  
+}
+.detail{
+  width: 55%;
+  height: 100%;
+  border: 2px solid black;
+  padding: 5px;
+  padding-left: 20px;
+}
+.aa{
+  margin-left: 104px;
+  width: 400px;
+}
+.ab{
+  margin-left: 119px;
+  width: 400px;
+}
+.ac{
+  margin-left: 97px;
+  width: 400px;
+}
+.ad{
+  margin-left: 97px;
+  width: 400px;
+}
+.ae{
+  margin-left: 84px;
+  width: 400px;
+}
+.contactimg{
+  height: 30%;
+  object-fit: cover;
+  border: 2px solid black;
+  width: 500px;
+
+}
+.navbar{
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background-color: rgb(42, 1, 81);
+  color: antiquewhite;
+  align-items: center;
+
+}
+.innernav{
+  display: flex;
+  height: 50px;
+  width: 94%;
+  background-color: rgb(42, 1, 81);
+  align-items: center;
+  margin: auto;
+  justify-content: space-between;
+}
+.list{
+  display: flex;
+  font-size: 20px;
+}
+li{
+  text-decoration: none;
+  margin-left: 20px;
+  list-style-type: none;
+  cursor: pointer;
+}
+button{
+  height: 40px;
+  width: 80px;
+  border-radius: 15px;
+  background-color: rgb(59, 83, 201);
+  color: rgb(75, 233, 27);
+  border: 0px;
+  cursor: pointer;
+}
