@@ -12,7 +12,7 @@ const NavContainer = (props) => {
                 <li>resume</li>
                 <li>about</li>
             </ul>
-            <button className='submit'>submit</button>
+            <button className='submit'onClick={saveDetails}>submit</button>
         </div>
     </div>
   )
