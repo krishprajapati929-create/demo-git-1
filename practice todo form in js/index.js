@@ -11,29 +11,27 @@ button.addEventListener("click",()=>{
     if(newname == "" || newemail == "" || newnum == ""){
         alert("Pls Fill All Details")
     }else{
-        carking1.setAttribute("href", "http://127.0.0.1:5501/cars%20flex%20web%20page/flex.html");
-    carking1.click();
-        let email1 = document.createElement("li");
-    let num1 = document.createElement("li");
-    name1.textContent = newname
-    email1.textContent = newemail
-    num1.textContent = newnum
+    //     carking1.setAttribute("href", "http://127.0.0.1:5501/cars%20flex%20web%20page/flex.html");
+    // carking1.click();
+    let list = document.createElement("li")
+        list.innerHTML=`
+        <strong>name:</strong>${newname} |
+        <strong>email:</strong>${newemail} |
+        <strong>num:</strong>${newnum}
+        `
   localStorage.setItem("AllDetails", JSON.stringify({
   name: newname,
   email: newemail,
   password: newnum
 }));
-    
+    let newbtn = document.createElement("button")
+    newbtn.className="removebtn"
     newbtn.innerText = "delete"
     newbtn.addEventListener("click",()=>{
-        name1.remove()
-        email1.remove()
-        num1.remove()
+        list.remove()
     })
-    name1.appendChild(newbtn);
-    ul.appendChild(name1);
-    ul.appendChild(email1);
-    ul.appendChild(num1);
+    list.appendChild(newbtn)
+    ul.appendChild(list)
     task.value = ""
     email.value = ""
     password.value = ""
