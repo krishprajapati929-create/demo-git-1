@@ -1,7 +1,11 @@
 const carousalImages = [
     "https://www.kalyanjewellers.net/images/banners/gold_banner.jpg",
     "https://www.kalyanjewellers.net/images/banners/gift.webp",
-    "https://www.kalyanjewellers.net/images/chairman-wide.jpg"
+    "https://www.kalyanjewellers.net/images/Jewellery/images/jewellery_banner.jpg",
+    "https://www.kalyanjewellers.net/images/Jewellery/Bangles/images/jewellery_bangles_banner.jpg",
+    "https://www.kalyanjewellers.net/images/Jewellery/Rings/images/jewellery_rings_banner.jpg",
+    "https://www.kalyanjewellers.net/images/Jewellery/Earrings/images/jewellery_earrings_banner.jpg"
+
 ]
 currentslide = 0
 let allmovies = []
@@ -68,7 +72,6 @@ function displaymovies(){
     carddiv.className="movie-card"
     carddiv.innerHTML=`
         <div class="movieposter">
-
             <img class="img" src=${movie.poster} alt=${movie.title}>
         </div>
         <div class="info">
@@ -76,15 +79,20 @@ function displaymovies(){
             <div class="movieid"></div>
             <div class="moviecetegory">${movie.category}</div>
             <div class="movierank">${movie.rank}</div>
-            <div class="movieyear">${movie.year}</div>
+            <div class="movieyear">${movie.price}</div>
             <button class="card-favourite cardbtn">favourite</button>
             <button class="card-cart cardbtn">cart</button>
         </div>
-        
     `
+    const moviepost = carddiv.querySelector(".movieposter")
+    moviepost.addEventListener("click",()=>{
+        window.location.href=`practice.html?id=${movie.id}`
+    })
     const cartbtn = carddiv.querySelector(".card-cart")
     cartbtn.addEventListener("click",()=>(handlecart(movie)))
     cardContainer.appendChild(carddiv)
+
+
     })
 }
 async function handlecart(movie){
@@ -108,6 +116,7 @@ async function handlecart(movie){
         console.log(err)
     }
 }
+
 loadmovies()
-setInterval(autoNext,2000)
+setInterval(autoNext,3000)
 initcrousal()

@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(202, 202, 247);
+}
+.practice-container{
+    display: flex;
+    flex-direction: row;
+}
+.movieposter{
+    height: 300px;
+    width: 300px;
+
+}
+.img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.info{
+    margin-left: 50px;
+    font-size: 30px;
+}
