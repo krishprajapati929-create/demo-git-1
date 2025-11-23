@@ -1,0 +1,19 @@
+.parent{
+    background-color: antiquewhite;
+    margin-top: 100px;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    gap: 5px;
+    margin: auto;
+}
+.input-field{
+    height: 25px;
+}
+.input-btn{
+    background-color: green;
+    height: 25px;
+}
