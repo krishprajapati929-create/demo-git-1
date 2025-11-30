@@ -1,12 +1,12 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState,useRef } from 'react'
 import './counter.css'
 
 const Counter = () => {
     const [count,setcount] = useState(0)
-    console.log(count)
+    const inputRef=useRef(null);
+
 
     const increment = () => {  
-        console.log("hi increament")
         setcount(count+1) 
     }
     const decrement = () => {
@@ -19,6 +19,13 @@ const Counter = () => {
         setcount(count*2)
 
     }
+    const handleFocus=()=>{
+        // inputRef.current.focus();
+        alert(`you entered: ${inputRef.current.value}`)
+    }
+    useEffect(()=>{
+        console.log("counter component ")
+    },[])
   return (
     <div className='counter'>
         <h2>Counter App</h2>
@@ -31,6 +38,8 @@ const Counter = () => {
                 <button className='reset' onClick={reset}>reset</button>
             </div>
         </div>
+        <input ref={inputRef} type='text' placeholder='Enter something....'/>
+        <button onClick={handleFocus}>submit</button>
     </div>
   )
 }

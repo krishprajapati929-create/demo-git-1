@@ -1,6 +1,7 @@
 .parent{
     background-color: antiquewhite;
     margin-top: 100px;
+    padding: 10px;
     
 }
 .form{
@@ -15,5 +16,5 @@
 }
 .input-btn{
     background-color: green;
-    height: 25px;
+    height: 35px;
 }
